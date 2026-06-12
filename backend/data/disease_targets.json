@@ -1,0 +1,839 @@
+{
+  "dossiers": [
+    {
+      "key": "ACVR2A",
+      "target": "ACVR2A",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR2A&indications=&diseaseArea="
+    },
+    {
+      "key": "ACVR2B",
+      "target": "ACVR2B",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR2B&indications=&diseaseArea="
+    },
+    {
+      "key": "ACVR1C",
+      "target": "ACVR1C",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR1C&indications=&diseaseArea="
+    },
+    {
+      "key": "ADRB2",
+      "target": "ADRB2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADRB2&indications=&diseaseArea="
+    },
+    {
+      "key": "ADRB3",
+      "target": "ADRB3",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADRB3&indications=&diseaseArea="
+    },
+    {
+      "key": "ADISSP",
+      "target": "ADISSP",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADISSP&indications=&diseaseArea="
+    },
+    {
+      "key": "AEBP1",
+      "target": "AEBP1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=AEBP1&indications=&diseaseArea="
+    },
+    {
+      "key": "ANO4",
+      "target": "ANO4",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ANO4&indications=&diseaseArea="
+    },
+    {
+      "key": "ANGPTL7",
+      "target": "ANGPTL7",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ANGPTL7&indications=&diseaseArea="
+    },
+    {
+      "key": "APLNR",
+      "target": "APLNR",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=APLNR&indications=&diseaseArea="
+    },
+    {
+      "key": "BRINP2",
+      "target": "BRINP2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=BRINP2&indications=&diseaseArea="
+    },
+    {
+      "key": "BRS3",
+      "target": "BRS3",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=BRS3&indications=&diseaseArea="
+    },
+    {
+      "key": "CAMK2D",
+      "target": "CAMK2D",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=CAMK2D&indications=&diseaseArea="
+    },
+    {
+      "key": "CDH4",
+      "target": "CDH4",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=CDH4&indications=&diseaseArea="
+    },
+    {
+      "key": "CHD4",
+      "target": "CHD4",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=CHD4&indications=&diseaseArea="
+    },
+    {
+      "key": "CRHR2",
+      "target": "CRHR2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=CRHR2&indications=&diseaseArea="
+    },
+    {
+      "key": "DNM1L",
+      "target": "DNM1L",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=DNM1L&indications=&diseaseArea="
+    },
+    {
+      "key": "ENHO",
+      "target": "ENHO",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ENHO&indications=&diseaseArea="
+    },
+    {
+      "key": "FADS1",
+      "target": "FADS1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=FADS1&indications=&diseaseArea="
+    },
+    {
+      "key": "FADS2",
+      "target": "FADS2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=FADS2&indications=&diseaseArea="
+    },
+    {
+      "key": "FXR",
+      "target": "FXR",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=FXR&indications=&diseaseArea="
+    },
+    {
+      "key": "GPR75",
+      "target": "GPR75",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=GPR75&indications=&diseaseArea="
+    },
+    {
+      "key": "GPS1",
+      "target": "GPS1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=GPS1&indications=&diseaseArea="
+    },
+    {
+      "key": "HRH3",
+      "target": "HRH3",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=HRH3&indications=&diseaseArea="
+    },
+    {
+      "key": "HTRA1",
+      "target": "HTRA1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=HTRA1&indications=&diseaseArea="
+    },
+    {
+      "key": "INHBE",
+      "target": "INHBE",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=INHBE&indications=&diseaseArea="
+    },
+    {
+      "key": "GIPR",
+      "target": "GIPR",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=GIPR&indications=&diseaseArea="
+    },
+    {
+      "key": "GUCY1A1",
+      "target": "GUCY1A1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=GUCY1A1&indications=&diseaseArea="
+    },
+    {
+      "key": "GUCY1B1",
+      "target": "GUCY1B1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=GUCY1B1&indications=&diseaseArea="
+    },
+    {
+      "key": "MIR33A",
+      "target": "MIR33A",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=MIR33A&indications=&diseaseArea="
+    },
+    {
+      "key": "MIR33B",
+      "target": "MIR33B",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=MIR33B&indications=&diseaseArea="
+    },
+    {
+      "key": "NOX4",
+      "target": "NOX4",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=NOX4&indications=&diseaseArea="
+    },
+    {
+      "key": "NPY1R",
+      "target": "NPY1R",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY1R&indications=&diseaseArea="
+    },
+    {
+      "key": "NPY2R",
+      "target": "NPY2R",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY2R&indications=&diseaseArea="
+    },
+    {
+      "key": "NPY5R",
+      "target": "NPY5R",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY5R&indications=&diseaseArea="
+    },
+    {
+      "key": "NRN1",
+      "target": "NRN1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=NRN1&indications=&diseaseArea="
+    },
+    {
+      "key": "OR5V1",
+      "target": "OR5V1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=OR5V1&indications=&diseaseArea="
+    },
+    {
+      "key": "PDE3B",
+      "target": "PDE3B",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=PDE3B&indications=&diseaseArea="
+    },
+    {
+      "key": "PRLHR",
+      "target": "PRLHR",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=PRLHR&indications=&diseaseArea="
+    },
+    {
+      "key": "SAV1",
+      "target": "SAV1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=SAV1&indications=&diseaseArea="
+    },
+    {
+      "key": "SLC51A",
+      "target": "SLC51A",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=SLC51A&indications=&diseaseArea="
+    },
+    {
+      "key": "SVEP1",
+      "target": "SVEP1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=SVEP1&indications=&diseaseArea="
+    },
+    {
+      "key": "TACR2",
+      "target": "TACR2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=TACR2&indications=&diseaseArea="
+    },
+    {
+      "key": "THRB",
+      "target": "THRB",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=THRB&indications=&diseaseArea="
+    },
+    {
+      "key": "TKT",
+      "target": "TKT",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=TKT&indications=&diseaseArea="
+    },
+    {
+      "key": "USP19",
+      "target": "USP19",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=USP19&indications=&diseaseArea="
+    },
+    {
+      "key": "USP30",
+      "target": "USP30",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=USP30&indications=&diseaseArea="
+    },
+    {
+      "key": "WARS2",
+      "target": "WARS2",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=WARS2&indications=&diseaseArea="
+    },
+    {
+      "key": "ZPR1",
+      "target": "ZPR1",
+      "indication": null,
+      "diseaseArea": null,
+      "url": "/target-biology?target=ZPR1&indications=&diseaseArea="
+    },
+    {
+      "key": "ACVR2A__indication__Obesity",
+      "target": "ACVR2A",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR2A&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ACVR2B__indication__Obesity",
+      "target": "ACVR2B",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR2B&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ACVR1C__indication__Obesity",
+      "target": "ACVR1C",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ACVR1C&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ADRB2__indication__Obesity",
+      "target": "ADRB2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADRB2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ADRB3__indication__Obesity",
+      "target": "ADRB3",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADRB3&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ADISSP__indication__Obesity",
+      "target": "ADISSP",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ADISSP&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "AEBP1__indication__Obesity",
+      "target": "AEBP1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=AEBP1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ANO4__indication__Obesity",
+      "target": "ANO4",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ANO4&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "APLNR__indication__Obesity",
+      "target": "APLNR",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=APLNR&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "BRINP2__indication__Obesity",
+      "target": "BRINP2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=BRINP2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "BRS3__indication__Obesity",
+      "target": "BRS3",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=BRS3&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "CDH4__indication__Obesity",
+      "target": "CDH4",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=CDH4&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "CHD4__indication__Obesity",
+      "target": "CHD4",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=CHD4&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "CRHR2__indication__Obesity",
+      "target": "CRHR2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=CRHR2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "FXR__indication__Obesity",
+      "target": "FXR",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=FXR&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "FADS1__indication__Obesity",
+      "target": "FADS1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=FADS1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "FADS2__indication__Obesity",
+      "target": "FADS2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=FADS2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "GIPR__indication__Obesity",
+      "target": "GIPR",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=GIPR&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "GPR75__indication__Obesity",
+      "target": "GPR75",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=GPR75&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "GPS1__indication__Obesity",
+      "target": "GPS1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=GPS1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "HRH3__indication__Obesity",
+      "target": "HRH3",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=HRH3&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "INHBE__indication__Obesity",
+      "target": "INHBE",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=INHBE&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "MIR33A__indication__Obesity",
+      "target": "MIR33A",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=MIR33A&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "MIR33B__indication__Obesity",
+      "target": "MIR33B",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=MIR33B&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "NOX4__indication__Obesity",
+      "target": "NOX4",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=NOX4&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "NPY1R__indication__Obesity",
+      "target": "NPY1R",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY1R&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "NPY2R__indication__Obesity",
+      "target": "NPY2R",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY2R&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "NPY5R__indication__Obesity",
+      "target": "NPY5R",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=NPY5R&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "NRN1__indication__Obesity",
+      "target": "NRN1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=NRN1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "OR5V1__indication__Obesity",
+      "target": "OR5V1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=OR5V1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "PDE3B__indication__Obesity",
+      "target": "PDE3B",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=PDE3B&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "PRLHR__indication__Obesity",
+      "target": "PRLHR",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=PRLHR&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "SLC51A__indication__Obesity",
+      "target": "SLC51A",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=SLC51A&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "TACR2__indication__Obesity",
+      "target": "TACR2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=TACR2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "THRB__indication__Obesity",
+      "target": "THRB",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=THRB&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "TKT__indication__Obesity",
+      "target": "TKT",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=TKT&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "USP19__indication__Obesity",
+      "target": "USP19",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=USP19&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "WARS2__indication__Obesity",
+      "target": "WARS2",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=WARS2&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "ZPR1__indication__Obesity",
+      "target": "ZPR1",
+      "indication": "Obesity",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ZPR1&indications=%22Obesity%22&diseaseArea="
+    },
+    {
+      "key": "HTRA1__indication__Age-related macular degeneration",
+      "target": "HTRA1",
+      "indication": "Age-related macular degeneration",
+      "diseaseArea": null,
+      "url": "/target-biology?target=HTRA1&indications=%22Age-related%20macular%20degeneration%22&diseaseArea="
+    },
+    {
+      "key": "ANGPTL7__indication__Glaucoma",
+      "target": "ANGPTL7",
+      "indication": "Glaucoma",
+      "diseaseArea": null,
+      "url": "/target-biology?target=ANGPTL7&indications=%22Glaucoma%22&diseaseArea="
+    },
+    {
+      "key": "CAMK2D__area__Cardiovascular diseases",
+      "target": "CAMK2D",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=CAMK2D&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "DNM1L__area__Cardiovascular diseases",
+      "target": "DNM1L",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=DNM1L&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "ENHO__area__Cardiovascular diseases",
+      "target": "ENHO",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=ENHO&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "GUCY1A1__area__Cardiovascular diseases",
+      "target": "GUCY1A1",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=GUCY1A1&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "GUCY1B1__area__Cardiovascular diseases",
+      "target": "GUCY1B1",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=GUCY1B1&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "SAV1__area__Cardiovascular diseases",
+      "target": "SAV1",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=SAV1&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "SVEP1__area__Cardiovascular diseases",
+      "target": "SVEP1",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=SVEP1&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "USP30__area__Cardiovascular diseases",
+      "target": "USP30",
+      "indication": null,
+      "diseaseArea": "Cardiovascular diseases",
+      "url": "/target-biology?target=USP30&indications=&diseaseArea=%22Cardiovascular%20diseases%22"
+    },
+    {
+      "key": "CAMK2D__area__Urologic diseases",
+      "target": "CAMK2D",
+      "indication": null,
+      "diseaseArea": "Urologic diseases",
+      "url": "/target-biology?target=CAMK2D&indications=&diseaseArea=%22Urologic%20diseases%22"
+    },
+    {
+      "key": "GUCY1A1__area__Urologic diseases",
+      "target": "GUCY1A1",
+      "indication": null,
+      "diseaseArea": "Urologic diseases",
+      "url": "/target-biology?target=GUCY1A1&indications=&diseaseArea=%22Urologic%20diseases%22"
+    },
+    {
+      "key": "GUCY1B1__area__Urologic diseases",
+      "target": "GUCY1B1",
+      "indication": null,
+      "diseaseArea": "Urologic diseases",
+      "url": "/target-biology?target=GUCY1B1&indications=&diseaseArea=%22Urologic%20diseases%22"
+    }
+  ],
+  "mappings": {
+    "targetOptions": [
+      "ACVR2A",
+      "ACVR2B",
+      "ACVR1C",
+      "ADRB2",
+      "ADRB3",
+      "ADISSP",
+      "AEBP1",
+      "ANO4",
+      "ANGPTL7",
+      "APLNR",
+      "BRINP2",
+      "BRS3",
+      "CAMK2D",
+      "CDH4",
+      "CHD4",
+      "CRHR2",
+      "DNM1L",
+      "ENHO",
+      "FADS1",
+      "FADS2",
+      "FXR",
+      "GPR75",
+      "GPS1",
+      "HRH3",
+      "HTRA1",
+      "INHBE",
+      "GIPR",
+      "GUCY1A1",
+      "GUCY1B1",
+      "MIR33A",
+      "MIR33B",
+      "NOX4",
+      "NPY1R",
+      "NPY2R",
+      "NPY5R",
+      "NRN1",
+      "OR5V1",
+      "PDE3B",
+      "PRLHR",
+      "SAV1",
+      "SLC51A",
+      "SVEP1",
+      "TACR2",
+      "THRB",
+      "TKT",
+      "USP19",
+      "USP30",
+      "WARS2",
+      "ZPR1"
+    ],
+    "diseaseAreaOptions": [
+      "Cardiovascular diseases",
+      "Urologic diseases"
+    ],
+    "indicationOptions": [
+      "Age-related macular degeneration",
+      "Glaucoma",
+      "Obesity"
+    ],
+    "diseaseToTargetMap": {
+      "Cardiovascular diseases": [
+        "CAMK2D",
+        "DNM1L",
+        "ENHO",
+        "GUCY1A1",
+        "GUCY1B1",
+        "SAV1",
+        "SVEP1",
+        "USP30"
+      ],
+      "Urologic diseases": [
+        "CAMK2D",
+        "GUCY1A1",
+        "GUCY1B1"
+      ]
+    },
+    "indicationToTargetMap": {
+      "Obesity": [
+        "ACVR2A",
+        "ACVR2B",
+        "ACVR1C",
+        "ADRB2",
+        "ADRB3",
+        "ADISSP",
+        "AEBP1",
+        "ANO4",
+        "APLNR",
+        "BRINP2",
+        "BRS3",
+        "CDH4",
+        "CHD4",
+        "CRHR2",
+        "FXR",
+        "FADS1",
+        "FADS2",
+        "GIPR",
+        "GPR75",
+        "GPS1",
+        "HRH3",
+        "INHBE",
+        "MIR33A",
+        "MIR33B",
+        "NOX4",
+        "NPY1R",
+        "NPY2R",
+        "NPY5R",
+        "NRN1",
+        "OR5V1",
+        "PDE3B",
+        "PRLHR",
+        "SLC51A",
+        "TACR2",
+        "THRB",
+        "TKT",
+        "USP19",
+        "WARS2",
+        "ZPR1"
+      ],
+      "Age-related macular degeneration": [
+        "HTRA1"
+      ],
+      "Glaucoma": [
+        "ANGPTL7"
+      ]
+    }
+  }
+}
