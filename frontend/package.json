@@ -1,0 +1,26 @@
+{
+  "name": "dbtips-frontend",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@aganitha/wc-bio": "0.1.4",
+    "@aganitha/wc-data": "0.1.4",
+    "@aganitha/wc-doc": "0.1.4",
+    "@aganitha/wc-theme": "0.1.4",
+    "@nightingale-elements/nightingale-manager": "^5.6.0",
+    "@nightingale-elements/nightingale-navigation": "^5.6.0",
+    "@nightingale-elements/nightingale-sequence": "^5.6.0",
+    "@nightingale-elements/nightingale-track": "^5.6.0",
+    "astro": "^5.6.0",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3"
+  }
+}

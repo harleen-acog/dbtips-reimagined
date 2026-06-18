@@ -1,0 +1,11 @@
+{{#each (goGroups data)}}
+<div class="go-group">
+  <h3>{{this.aspect}} <span class="count-badge">{{this.count}}</span></h3>
+  <p class="muted">{{this.description}}</p>
+  <wa-details summary="View {{this.count}} terms">
+    <data-table sortable filterable page-size="15">
+      <script type="application/json">{{{json this.table}}}</script>
+    </data-table>
+  </wa-details>
+</div>
+{{/each}}

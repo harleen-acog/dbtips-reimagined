@@ -1,0 +1,8 @@
+{{#with (genericTable data) as |t|}}
+<wa-card>
+{{#if t.capped}}<p class="muted">Showing first {{t.rows.length}} of {{t.capped}} rows.</p>{{/if}}
+<data-table sortable filterable page-size="20">
+<script type="application/json">{{{json t}}}</script>
+</data-table>
+</wa-card>
+{{/with}}

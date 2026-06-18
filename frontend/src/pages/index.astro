@@ -1,0 +1,61 @@
+---
+import '../styles/dossier.css'
+import { listTargets, loadTarget, heroModel } from '../sections'
+
+const cards = listTargets().map((id) => {
+  const h = heroModel(loadTarget(id))
+  return { id, kind: h.kind, name: h.name, gene: h.gene }
+})
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DBTIPS — Target Dossiers</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">DBTIPS<small>Disease &amp; Target Dossier</small></div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="hero-kind">Platform</span>
+        <h1>Target Dossiers</h1>
+        <p class="subtitle">A publication-style brief for each target — generated from one generic codebase.</p>
+      </div>
+    </section>
+
+    <div class="layout" style="grid-template-columns: 1fr;">
+      <main class="gallery">
+        {cards.map((c) => (
+          <a class="gcard" href={`/target/${c.id}`}>
+            <span class="gkind">{c.kind}</span>
+            <strong>{c.id.toUpperCase()}</strong>
+            {c.name && <span class="gname">{c.name}</span>}
+            {c.gene && <span class="ggene">gene {c.gene}</span>}
+          </a>
+        ))}
+      </main>
+    </div>
+
+    <footer class="foot">DBTIPS reimagined</footer>
+  </body>
+</html>
+
+<style>
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .gcard {
+    display: flex; flex-direction: column; gap: .25rem;
+    background: #fff; border: 1px solid var(--d-line); border-radius: var(--d-radius);
+    box-shadow: var(--d-shadow); padding: 1.1rem 1.25rem; text-decoration: none; color: var(--d-ink);
+    transition: border-color .15s, transform .15s;
+  }
+  .gcard:hover { border-color: var(--d-accent); transform: translateY(-2px); }
+  .gcard strong { font-size: 1.15rem; letter-spacing: -.3px; }
+  .gkind { font-size: .64rem; font-weight: 700; letter-spacing: .7px; text-transform: uppercase; color: var(--d-accent); }
+  .gname { font-size: .85rem; color: var(--d-ink); }
+  .ggene { font-size: .75rem; color: var(--d-muted); }
+</style>

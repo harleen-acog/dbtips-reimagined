@@ -1,0 +1,8 @@
+{{#if (subcellularHeader data)}}
+<doc-finding label="Localization">{{subcellularHeader data}}</doc-finding>
+{{/if}}
+<wa-details summary="Topology features">
+<data-table sortable filterable page-size="20">
+<script type="application/json">{{{json (subcellularTable data)}}}</script>
+</data-table>
+</wa-details>

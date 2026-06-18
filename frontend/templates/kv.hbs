@@ -1,0 +1,3 @@
+{{#with (kvTable data) as |t|}}
+<table class="kv">{{#each t.rows}}<tr><th>{{this.field}}</th><td>{{this.value}}</td></tr>{{/each}}</table>
+{{/with}}

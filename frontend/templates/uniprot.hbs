@@ -1,0 +1,20 @@
+{{#with (proteinCard target.target_profile.details) as |p|}}
+<bio-protein name="{{p.name}}" gene="{{p.gene}}" uniprot-id="{{p.uniprot}}" organism="{{p.organism}}" length="{{seqLength data}} aa"></bio-protein>
+{{/with}}
+<h3>Sequence features</h3>
+<div class="nt-viewer">
+  <script type="application/json" class="nt-payload">{{{json (nightingaleData data)}}}</script>
+  <div class="nt-mount"></div>
+</div>
+{{#if (topPdbId data)}}
+<h3>3D structure · {{topPdbId data}}</h3>
+<div class="pdbe-wrap">
+  <pdbe-molstar molecule-id="{{topPdbId data}}" hide-controls="true" bg-color-r="255" bg-color-g="255" bg-color-b="255"></pdbe-molstar>
+</div>
+{{/if}}
+<h3>Experimental structures</h3>
+<wa-details summary="All PDB entries">
+<data-table sortable filterable page-size="10">
+<script type="application/json">{{{json (pdbTable data)}}}</script>
+</data-table>
+</wa-details>

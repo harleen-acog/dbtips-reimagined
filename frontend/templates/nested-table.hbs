@@ -1,0 +1,7 @@
+{{#each (listLeaves data)}}
+<h3>{{this.title}}</h3>
+{{#if this.table.capped}}<p class="muted">Showing first {{this.table.rows.length}} of {{this.table.capped}} rows.</p>{{/if}}
+<data-table sortable filterable page-size="20">
+<script type="application/json">{{{json this.table}}}</script>
+</data-table>
+{{/each}}

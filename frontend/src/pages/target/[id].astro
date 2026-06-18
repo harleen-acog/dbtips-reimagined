@@ -1,0 +1,23 @@
+---
+import Dossier from '../../layouts/Dossier.astro'
+import { listTargets, loadTarget, renderTab, heroModel } from '../../sections'
+
+export function getStaticPaths() {
+  return listTargets().map((id) => ({ params: { id } }))
+}
+
+const { id } = Astro.params as { id: string }
+const data = loadTarget(id)
+const hero = heroModel(data)
+const sections = renderTab(data, 'target_profile') // Target Overview
+const toc = sections.map((s) => ({ id: s.id, title: s.title }))
+---
+
+<Dossier targets={listTargets()} activeTarget={id} hero={hero} sections={toc}>
+  {sections.map((s) => (
+    <section class="section" id={s.id}>
+      <div class="section-head"><h2>{s.title}</h2></div>
+      <Fragment set:html={s.html} />
+    </section>
+  ))}
+</Dossier>

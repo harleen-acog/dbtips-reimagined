@@ -1,1 +1,33 @@
 backend/cached_data_json/
+node_modules/
+dist/
+.astro/
+.cache/
+.npmrc
+plans/
+observations/
+frontend/bun.lock
+
+node_modules/
+dist/
+coverage/
+
+# Vite & build caches
+.vite/
+.turbo/
+.cache/
+
+# TypeScript incremental build
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code personal/local settings (team settings are in .claude/settings.json)
+.claude/settings.local.json

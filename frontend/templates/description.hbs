@@ -1,0 +1,14 @@
+{{#with (proteinCard data) as |p|}}
+<bio-protein name="{{p.name}}" gene="{{p.gene}}" uniprot-id="{{p.uniprot}}" organism="{{p.organism}}"></bio-protein>
+{{/with}}
+{{#if (funcText data)}}
+<doc-abstract><p>{{funcText data}}</p></doc-abstract>
+{{/if}}
+{{#if (synonyms data)}}
+<h3>Synonyms</h3>
+<div class="synonyms">{{#each (synonyms data)}}<wa-tag size="small" variant="neutral">{{this}}</wa-tag>{{/each}}</div>
+{{/if}}
+<h3>Taxonomy</h3>
+{{#with (taxonomyTable data) as |t|}}
+<table class="kv">{{#each t.rows}}<tr><th>{{this.field}}</th><td>{{this.value}}</td></tr>{{/each}}</table>
+{{/with}}

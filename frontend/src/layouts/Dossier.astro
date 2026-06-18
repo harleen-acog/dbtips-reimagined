@@ -1,0 +1,80 @@
+---
+import '../styles/dossier.css'
+import type { HeroModel } from '../sections'
+
+interface Props {
+  targets: string[]
+  activeTarget: string
+  hero: HeroModel
+  sections: { id: string; title: string }[]
+}
+const { targets, activeTarget, hero, sections } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{hero.symbol} — DBTIPS dossier</title>
+    <script>import '../client/dossier.ts'</script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">DBTIPS<small>Disease &amp; Target Dossier</small></div>
+      <div class="spacer"></div>
+      <label class="switcher">
+        Target
+        <select onchange="location.href='/target/'+this.value">
+          {targets.map((t) => <option value={t} selected={t === activeTarget}>{t.toUpperCase()}</option>)}
+        </select>
+      </label>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="hero-kind">{hero.kind}</span>
+        <h1>{hero.symbol}</h1>
+        {hero.name && <p class="subtitle">{hero.name}</p>}
+        <p class="meta">
+          {hero.gene && <>gene <strong>{hero.gene}</strong></>}
+          {hero.gene && hero.organism && ' · '}
+          {hero.organism}
+        </p>
+        {hero.chips.length > 0 && (
+          <div class="hero-chips">
+            {hero.chips.map((c) =>
+              c.href ? (
+                <a class="hero-chip" href={c.href} target="_blank" rel="noopener"><b>{c.label}</b> {c.value}</a>
+              ) : (
+                <span class="hero-chip"><b>{c.label}</b> {c.value}</span>
+              ),
+            )}
+          </div>
+        )}
+        {hero.stats.length > 0 && (
+          <div class="kpis">
+            {hero.stats.map((s) => (
+              <div class="kpi">
+                <div class="v">{s.value}{s.unit && <small>{s.unit}</small>}</div>
+                <div class="l">{s.label}</div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="toc">
+        <h4>On this page</h4>
+        {sections.map((s) => <a href={`#${s.id}`}>{s.title}</a>)}
+      </aside>
+      <main class="sections">
+        <slot />
+      </main>
+    </div>
+
+    <footer class="foot">AI can make mistakes · DBTIPS reimagined</footer>
+  </body>
+</html>

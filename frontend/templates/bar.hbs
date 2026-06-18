@@ -1,0 +1,69 @@
+{{#with (expressionData data) as |ex|}}
+<div class="expr-switch">
+  <span class="expr-switch-label">{{ex.switchLabel}}</span>
+  <select class="expr-organ-select">
+    <option value="__all__">{{ex.allLabel}}</option>
+    {{#each ex.groups}}
+    <option value="{{this.label}}">{{this.label}}</option>
+    {{/each}}
+  </select>
+</div>
+
+<div class="expr-legend">
+  <span class="expr-legend-s0">{{ex.series0Label}}</span>
+  <span class="expr-legend-s1">{{ex.series1Label}}</span>
+</div>
+
+{{! Summary panel: one row per group, max values }}
+<div class="expr-panel" data-panel="__all__">
+  {{#each ex.groups}}
+  <div class="expr-row">
+    <div class="expr-row-label" title="{{this.hint}}">{{this.label}}</div>
+    <div class="expr-row-bars">
+      <div class="expr-bar-wrap">
+        <div class="expr-bar expr-bar-s0" style="width:{{this.s0Pct}}%"></div>
+        <span class="expr-bar-val">{{levelLabel this.s0Level}}</span>
+      </div>
+      <div class="expr-bar-wrap">
+        <div class="expr-bar expr-bar-s1" style="width:{{this.s1Pct}}%"></div>
+        <span class="expr-bar-val">{{levelLabel this.s1Level}}</span>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+
+{{! Detail panels: one row per item in the group (hidden until selected) }}
+{{#each ex.groups}}
+<div class="expr-panel expr-panel-hidden" data-panel="{{this.label}}">
+  {{#each this.items}}
+  <div class="expr-row">
+    <div class="expr-row-label">{{this.label}}</div>
+    <div class="expr-row-bars">
+      <div class="expr-bar-wrap">
+        <div class="expr-bar expr-bar-s0" style="width:{{this.s0Pct}}%"></div>
+        <span class="expr-bar-val">{{this.s0Detail}}</span>
+      </div>
+      <div class="expr-bar-wrap">
+        <div class="expr-bar expr-bar-s1" style="width:{{this.s1Pct}}%"></div>
+        <span class="expr-bar-val">{{levelLabel this.s1Level}}</span>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{/each}}
+
+<script>
+(function() {
+  var wrap = document.currentScript.closest('.section') || document.currentScript.parentElement
+  var sel = wrap && wrap.querySelector('.expr-organ-select')
+  if (!sel) return
+  sel.addEventListener('change', function() {
+    wrap.querySelectorAll('.expr-panel').forEach(function(p) { p.classList.add('expr-panel-hidden') })
+    var t = wrap.querySelector('.expr-panel[data-panel="' + sel.value + '"]')
+    if (t) t.classList.remove('expr-panel-hidden')
+  })
+})()
+</script>
+{{/with}}

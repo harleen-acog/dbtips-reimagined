@@ -1,0 +1,22 @@
+{{#with (proteinCard data) as |p|}}
+<bio-gene symbol="{{target._meta.id}}" name="{{p.name}}" organism="{{p.organism}}"></bio-gene>
+{{/with}}
+{{#if (mirnaLinks data)}}
+<div class="linkbtns">{{#each (mirnaLinks data)}}<wa-button size="small" appearance="outlined" href="{{this.url}}" target="_blank">{{this.label}}</wa-button>{{/each}}</div>
+{{/if}}
+{{#if (funcText data)}}
+<doc-abstract><p>{{funcText data}}</p></doc-abstract>
+{{/if}}
+{{#if (mirnaSeq data)}}
+<h3>Mature sequence</h3>
+<bio-sequence-viewer sequence="{{mirnaSeq data}}" type="rna" wrap="60"></bio-sequence-viewer>
+{{/if}}
+{{#if (mirnaStructure data)}}
+<h3>Secondary structure</h3>
+<pre class="struct">{{mirnaStructure data}}</pre>
+{{/if}}
+<wa-details summary="More details">
+{{#with (kvTable data) as |t|}}
+<table class="kv">{{#each t.rows}}<tr><th>{{this.field}}</th><td>{{this.value}}</td></tr>{{/each}}</table>
+{{/with}}
+</wa-details>
